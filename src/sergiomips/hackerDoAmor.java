@@ -3,7 +3,6 @@ import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.swing.JOptionPane;
 
 //this class is mainly for aquiring a sound to play during the excution of the virus, choose anything in wav format
 public class hackerDoAmor {
