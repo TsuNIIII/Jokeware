@@ -17,7 +17,7 @@ public class sergioMIPS {
   
     public void Popup() {
         JWindow win = new JWindow();
-        JLabel label = new JLabel("INVADIDO POR SERGIO MIPS",JLabel.CENTER);
+        JLabel label = new JLabel("INVADIDO POR SERGIO MIPS",JLabel.CENTER); //the message you want to display
         
         win.add(label);
         win.setSize(200, 75);
@@ -27,14 +27,12 @@ public class sergioMIPS {
     
     public void ImagePopup(){
         JFrame f = new JFrame();
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         f.setUndecorated(true);
-        ImageIcon image = new ImageIcon("sergioMIPS.jpeg");
+        ImageIcon image = new ImageIcon("sergioMIPS.jpeg"); //the image you want to popup, the image file must be in the project folder
         JLabel lbl = new JLabel(image);
         
         f.getContentPane().add(lbl);
         f.setSize(image.getIconWidth(), image.getIconHeight());
-        
         
         f.setLocation(rd.nextInt(width), rd.nextInt(height));
         f.setVisible(true);
@@ -42,7 +40,7 @@ public class sergioMIPS {
     
     public static void main(String[] args) throws AWTException, InterruptedException {
         sergioMIPS fv = new sergioMIPS();
-        String filepath = "hackerDoAmor.wav";
+        String filepath = "hackerDoAmor.wav"; //the sound you want to play, the wav file must also be in the project folder
         hackerDoAmor musicObject = new hackerDoAmor();
         musicObject.playSound(filepath);
         
@@ -50,7 +48,5 @@ public class sergioMIPS {
             fv.Popup();
             fv.ImagePopup();
         } 
-        
     }
-    
 }
