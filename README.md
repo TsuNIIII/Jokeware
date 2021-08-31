@@ -1,5 +1,5 @@
 # Jokeware
-This is a little Jokeware I did during some classes in University
+This is a little Jokeware I did during some classes in University.
 When you execute the .jar file or the code in a IDE, it will start to popup a lot of messages 
 and images (of your choosing) randomly throughout the computer screen and a sound (also of your choosing)
 will play as well
